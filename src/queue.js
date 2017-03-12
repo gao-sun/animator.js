@@ -65,7 +65,7 @@ class Queue {
 		}
 
 		if(this.options.instant) {
-			this.play();
+			return this.play();
 		}
 	}
 
