@@ -18,7 +18,8 @@ module.exports = {
 	output: {
 		filename: '/[name].js',
 		path: dist,
-		library: ['Animator']
+		library: ['Animator'],
+		libraryTarget: 'umd'
 	},
 	module: {
 		rules: [
