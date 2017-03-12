@@ -23,7 +23,12 @@ Style.getFromSheets = (selector) => {
 	let sheets = document.styleSheets;
 
 	for(let i in sheets) {
-		let classes = sheets[i].rules || sheets[i].cssRules;
+		let classes = null;
+
+		try {
+			classes = sheets[i].rules || sheets[i].cssRules;
+		}
+		catch (e) {}
 
 		if(!classes) {
 			continue;

@@ -1,6 +1,6 @@
 {
   "name": "animatorjs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Effortlessly make CSS animaitons.",
   "main": "dist/animator.js",
   "scripts": {
