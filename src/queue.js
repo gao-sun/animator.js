@@ -65,7 +65,7 @@ class Queue {
 		}
 
 		if(this.options.instant) {
-			return this.play();
+			this.play();
 		}
 	}
 
@@ -149,6 +149,10 @@ class Queue {
 		for(let i in this.doms) {
 			this.resumeDom(this.doms[i]);
 		}
+	}
+
+	getPromise() {
+		return this.promise;
 	}
 
 	// Assistants
