@@ -23,6 +23,8 @@ npm install animatorjs
 <script src="https://unpkg.com/animatorjs@latest/dist/animator.min.js"></script>
 ```
 
+3.Download from dist/ in Github repository
+
 ## Contributing
 
 Please leave an issue if you find any bugs, I will fix it ASAP.
