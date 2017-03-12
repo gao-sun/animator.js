@@ -1,3 +1,3 @@
-gzip -kv dist/animator.js
+gzip -kv dist/animator.min.js
 ls -l dist/*.gz | awk '{total += $5} END {print "Total:", total}'
-rm dist/animator.js.gz
+rm dist/animator.min.js.gz

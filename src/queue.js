@@ -168,7 +168,7 @@ class Queue {
 				this.replay(domIndex);
 			} else {
 				if(this.options.applyOnEnd) {
-					this.applyOnEnd(domIndex)
+					this.applyOnEnd(domIndex);
 				}
 
 				this.animationEnded ++;
@@ -199,7 +199,7 @@ class Queue {
 	}
 
 	applyOnEnd(index) {
-		let lastFrame = this.newFrames[this.frames.length - 1];
+		let lastFrame = this.newFrames[this.frames.length];
 
 		for(let i in lastFrame) {
 			this.doms[index].style[i] = lastFrame[i];
