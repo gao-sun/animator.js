@@ -6,8 +6,11 @@
 ## Key Features
 
 **Efficient** Pure CSS animation, great performance.
+
 **Flexible** Configure your animation in various ways.
+
 **Light** Less than 3KB(after gzipped), no dependency.
+
 **Powerful** Easily manage key frames in css/js.
 
 ## Where to Get
