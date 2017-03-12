@@ -20,7 +20,7 @@ npm install animatorjs
 2.CDN
 
 ```html
-<script src="https://unpkg.com/animatorjs/dist/animator.min.js"></script>
+<script src="https://unpkg.com/animatorjs@latest/dist/animator.min.js"></script>
 ```
 
 ## Contributing
