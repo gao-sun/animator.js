@@ -3,6 +3,10 @@
 ## Live Demos & Docs
 [https://gao-sun.github.io/animatorjs](https://gao-sun.github.io/animatorjs)
 
+### NOTE: Please re-install Animator.js if you are using versions below 1.0.0, since npm does not prepend a caret to the version number when it < 0.1.0
+
+---
+
 ## Key Features
 
 **Efficient** Pure CSS animation, great performance.
