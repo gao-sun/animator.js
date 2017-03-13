@@ -235,7 +235,7 @@ class Queue {
 
 		// Make new frames
 		for(let i = 1; i < frames.length; ++ i) {
-			let newFrame = JSON.parse(JSON.stringify(frames[i - 1]));
+			let newFrame = JSON.parse(JSON.stringify(newFrames[i - 1]));
 
 			for(let j in frames[i]) {
 				newFrame[j] = frames[i][j];
