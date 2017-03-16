@@ -4,10 +4,10 @@ const dist = path.resolve('./dist/');
 const PACKAGE = require('./package.json');
 
 const banner = 
-	'Animator.js' + ' - v' + PACKAGE.version + '\n' +
-	'@author ' + PACKAGE.author + '\n' +
-	'@license ' + PACKAGE.license + '\n' +
-	'@homepage ' + PACKAGE.homepage;
+	'Animator.js' + ' - v' + PACKAGE.version + ' | ' +
+	PACKAGE.author + ' | ' +
+	PACKAGE.license + ' | ' +
+	PACKAGE.homepage;
 
 module.exports = {
 	context: path.resolve('./src/'),
